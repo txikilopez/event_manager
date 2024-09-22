@@ -87,7 +87,7 @@ end
 def output_message_days(array_days)
   puts "\nThe days with most people registering were:"
   array_days.each_with_index do |days, idx|
-    puts "#{idx+1}.- #{days[0]} with #{days[2]} registrations."
+    puts "#{idx+1}.- #{days[0]} with #{days[1]} registrations."
   end
 end
 
